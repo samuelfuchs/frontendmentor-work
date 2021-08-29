@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root {
+  /* Primary Colors */
+  --pale-blue: hsl(225, 100%, 94%);
+  --bright-blue: hsl(245, 75%, 52%);
+
+  /* Neutral Colors */
+  --very-pale-blue: hsl(225, 100%, 98%);
+  --desaturated-blue: hsl(224, 23%, 55%);
+  --dark-blue: hsl(223, 47%, 23%);
+}
+
+html {
+  /* box-sizing prevents scrollbars to appear when adding padding to something that goes outside the extremes */
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Red Hat Display', sans-serif;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: var(--pale-blue);
+}
+
+h1 {
+  color: var(--dark-blue);
+  font-weight: 900;
+}
+
+.card-content {
+  padding: 18px 50px 18px;
+}
+
+.plan-description {
+  /* background-color: green; */
+  width: 100%;
+}
+
+.price-heading {
+  color: var(--dark-blue);
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.price {
+  color: var(--desaturated-blue);
+  margin: 0;
+  padding: 0;
+}
+
+.music-icon {
+  height: 50%;
+  width: 50%;
+}
+
+.container {
+  margin: 10px;
+}
+
+/* CARD */
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+  border-radius: 11px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.text-description {
+  color: var(--desaturated-blue);
+}
+
+.card-img {
+  width: 100%;
+  position: relative;
+}
+
+.audio-section {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 11px;
+  height: 100px;
+
+  background-color: var(--very-pale-blue);
+}
+
+.left-objs {
+  display: flex;
+  align-items: center;
+}
+
+.right-objs {
+  /* background-color: green; */
+}
+
+/* 
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+### Font
+
+- Family: [Red Hat Display](https://fonts.google.com/specimen/Red+Hat+Display)
+- Weights: 500, 700, 900
+
+*/
